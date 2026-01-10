@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manisara's Profile</title>
+</head>
+
+<body>
+    <header>
+        <h1>Manisara's Profile</h1>
+        <h2>Welcome to my page!</h2>
+        <h3>Contents</h3>
+        <nav>
+            <a href ="index.html">Home</a>
+            <a href ="#information">Information</a>
+            <a href ="#mycontact">My Contact</a>
+        </nav>
+    </header>
+
+    <main id="information">
+        <section>
+            <h1>Personal Data</h1>
+            <img src="68102010557.jpg" width ="150" length ="250" alt="My picture">
+            <h2>Name</h2>
+            <p><em>Manisara Phadungyat</em></p>
+            <h2>Age</h2>
+            <p><em>18</em></p>
+            <h2>Student ID</h2>
+            <p><em>68102010557</em></p>
+            <h2>University</h2>
+            <p><em>Srinakharinwirot University</em></p>
+        </section>
+
+        <section>
+            <h1>Skill & Soft Skill</h1>
+
+            <h2>Skill</h2>
+            <ul>
+                <li><p><em>HTML & CSS</em></p></li>
+                <li><p><em>JavaScript</em></p></li>
+                <li><p><em>Python</em></p></li>
+                <li><p><em>Microsoft Office</em></p></li>
+                <li><p><em>Graphic Design</em></p></li>
+            </ul>
+
+            <h2>Soft Skill</h2>
+            <ul>
+                <li><p><em>Communication</em></p></li>
+                <li><p><em>Teamwork</em></p></li>
+                <li><p><em>Problem Solving</em></p></li>
+                <li><p><em>Time Management</em></p></li>
+                <li><p><em>Adaptability</em></p></li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>Additional Abilities</h1>
+            <ul>
+                <li><p><em>Drawing & Sketching</em></p></li>
+                <li><p><em>Digital Art</em></p></li>
+                <li><p><em>Photography & Photo Editing</em></p></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <form>
+            <h1>Contact Me</h1>
+
+            <table border="3">
+                <thead>
+                    <tr>
+                        <th>Field</th>
+                        <th>Input</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <label for="name">Full Name</label>
+                        </th>
+                        <td>
+                            <input type="text" id="name" name="name" placeholder="Input your name" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">
+                            <label for="email">Email</label>
+                        </th>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="Input your Email" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">
+                            <label for="phonenumber">Tel</label>
+                        </th>
+                        <td>
+                            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Input your phone number">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">
+                            <label for="reason">Reason for Contact</label>
+                        </th>
+                        <td>
+                            <select id="reason" name="reason">
+                                <option value="">--Select--</option>
+                                <option value="question">Question</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">
+                            <label for="message">Message</label>
+                        </th>
+                        <td>
+                            <textarea id="message" name="message" rows="5" cols="30" placeholder="Input your Message"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <button type="submit">Submit</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        <h1>My Contact</h1>
+        <table id="mycontact" border="2">
+            <tr>
+                <td>
+                    <p><strong>Tel:</strong> <em>0917506608</em></p>
+                    <p><strong>Email:</strong> <em>manisara.apm@g.swu.ac.th</em></p>
+                    <a href ="https://github.com/manisaraapm-gif/html-lab-557" target ="_blank" rel ="noopener" >Repository</a>
+                    <p><em>&copy; 2025 Manisara Phadungyat</em></p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
